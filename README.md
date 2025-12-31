@@ -4,7 +4,9 @@ I have used Javascript in order to solve the problem provided.
 
 To run the solution you can type and enter the following in the terminal:
 
+```bash
 node anagram.js
+```
 
 I have assumed that the strings will be in lowercase and there will be no spaces between them.
 
@@ -21,3 +23,11 @@ The logic/approach behind my code is:
 - So, the major logic is I will find the index of the character and if the character is found in str1, I would increment the element of charCount at that index whereas, if found on the str2, I would decrement the element of charCount at that index.
 
 - Then at last a check will be done to see if every element of the array is 0 or not. If every element of the array is '0' then the boolean true will be returned and if even one of the element isn't equal to '0' then boolean value false will be returned.
+
+## Time Complexity
+
+O(n) with n as the length of the string as it only contains one for loop for n length.
+
+## Space Complexity
+
+O(1) or O(26) as the space is fixed and it doesn't dynamically increases. The only thing that takes up space is the charCount Array and its size is pre fixed at initialization.
