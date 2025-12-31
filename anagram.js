@@ -1,4 +1,4 @@
-var anagram = function (str1, str2) {
+var anagram = (str1, str2) => {
   if (str1.length !== str2.length) {
     return false;
   }
